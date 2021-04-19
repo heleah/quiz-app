@@ -4,11 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Quiz App</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
+    <main>
+      <section class="quiz-card">
+        <h3>Question:</h3>
+        <img src="/img/star_outlined.svg" alt="bookmark" />
+        <p class="question">What is 2 + 2 * 2?</p>
+        <details class="answer-button">
+          <summary>Show Answer</summary>
+          6.
+        </details>
+        <ul class="tags">
+          <li>maths</li>
+          <li>calculation</li>
+          <li>numbers</li>
+          <li>general knowledge</li>
+        </ul>
+      </section>
+
+      <section class="quiz-card">
+        <h3>Question:</h3>
+        <img src="/img/star_filled.svg" alt="bookmarked" />
+        <p class="question">What is 4 + 4 * 8?</p>
+        <details class="answer-button">
+          <summary>Show Answer</summary>
+          36.
+        </details>
+        <ul class="tags">
+          <li>maths</li>
+          <li>calculation</li>
+          <li>numbers</li>
+          <li>general knowledge</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <img class="nav-icon" src="img/home_filled.svg" alt="home icon" />
+          </li>
+          <li>
+            <a href="./bookmarks.html"
+              ><img
+                class="nav-icon"
+                src="/img/star_outlined.svg"
+                alt="bookmarks icon"
+            /></a>
+          </li>
+          <li>
+            <a href="./addquestion.html"
+              ><img class="nav-icon" src="/img/add_outlined.svg" alt="add icon"
+            /></a>
+          </li>
+          <li>
+            <a href="./profile.html"
+              ><img
+                class="nav-icon"
+                src="/img/profile_outlined.svg"
+                alt="profile icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
