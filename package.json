@@ -1,0 +1,24 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "This is an awesome quiz app!",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenahcodes/quiz-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenahcodes/quiz-app/issues"
+  },
+  "homepage": "https://github.com/helenahcodes/quiz-app#readme",
+  "devDependencies": {
+    "snowpack": "^3.3.3"
+  }
+}
