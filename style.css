@@ -16,6 +16,10 @@ h1 {
   text-align: center;
 }
 
+main {
+  padding-bottom: 250px;
+}
+
 .quiz-card {
   width: 90%;
   margin: 1.25rem auto;
@@ -76,7 +80,10 @@ summary {
 
 footer {
   width: 100%;
-  align-self: flex-end;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid black;
 }
 
 nav ul {
@@ -85,12 +92,12 @@ nav ul {
   align-items: center;
   list-style-type: none;
   padding: 0;
-  border-top: 1px solid black;
 }
 
 nav li {
   border-right: 1px solid black;
   padding: 1rem;
+  padding-bottom: 0;
   text-align: center;
 }
 
