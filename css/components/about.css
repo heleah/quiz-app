@@ -1,0 +1,10 @@
+.about__user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about__user img {
+  width: 14rem;
+  border-radius: 50rem;
+}
