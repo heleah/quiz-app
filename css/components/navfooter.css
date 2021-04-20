@@ -1,0 +1,30 @@
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid black;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  border-right: 1px solid black;
+  padding: 1rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+.nav__icon {
+  height: 2.5rem;
+}

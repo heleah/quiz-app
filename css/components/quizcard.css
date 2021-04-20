@@ -1,0 +1,57 @@
+.quizcard {
+  width: 90%;
+  margin: 1.25rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.quizcard__headline {
+  margin-bottom: 0;
+  align-self: flex-start;
+}
+
+.quizcard img {
+  width: 1.75rem;
+  align-self: flex-end;
+}
+
+.quizcard__question {
+  font-weight: bold;
+}
+
+.quizcard__answer {
+  background-color: silver;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+summary {
+  font-weight: normal;
+}
+
+.quizcard__answer:hover {
+  border: 0.5px solid black;
+}
+
+.quizcard__tags {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.quizcard__tags li {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: lightsteelblue;
+  border-radius: 0.5rem;
+  text-align: center;
+  align-self: center;
+}
