@@ -3,7 +3,6 @@ footer {
   position: fixed;
   bottom: 0;
   background-color: var(--light);
-  xborder-top: 1px solid black;
 }
 
 .nav ul {
