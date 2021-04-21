@@ -1,3 +1,23 @@
+:root {
+  --primary: hsl(197, 100%, 30%);
+  --primary-100: hsl(197, 100%, 96%);
+  --primary-200: hsl(197, 100%, 87%);
+  --primary-400: hsl(197, 100%, 22%);
+  --primary-500: hsl(197, 100%, 10%);
+
+  --secondary: hsl(17, 100%, 30%);
+  --secondary-100: hsl(17, 100%, 96%);
+  --secondary-200: hsl(17, 100%, 80%);
+  --secondary-400: hsl(17, 100%, 22%);
+  --secondary-500: hsl(17, 100%, 10%);
+
+  --grey: hsl(197, 10%, 40%);
+  --light: hsl(197, 10%, 96%);
+  --lighter: hsl(197, 10%, 80%);
+  --darker: hsl(197, 10%, 25%);
+  --dark: hsl(197, 10%, 10%);
+}
+
 *,
 *::before,
 *::after {
@@ -9,16 +29,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 1.25rem;
-  background-color: navy;
 }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid black;
   padding: 1rem 0;
-  background-color: white;
+  background-color: var(--primary);
   z-index: 10;
 }
 
@@ -28,8 +46,10 @@ h1 {
 }
 
 main {
-  width: 90%;
-  margin: 1.25rem auto;
-  padding-bottom: 150px;
-  margin-top: 8rem;
+  height: 105vh;
+  padding: 1.25rem;
+  padding-top: 8rem;
+  margin-bottom: 5rem;
+  background-image: linear-gradient(var(--primary) 8%, var(--light));
+  background-attachment: fixed;
 }

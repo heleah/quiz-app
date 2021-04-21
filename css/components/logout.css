@@ -6,8 +6,13 @@
 .logout a {
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: white;
+  background-color: var(--light);
   border-radius: 100rem;
   text-decoration: none;
-  color: black;
+  color: var(--dark);
+}
+
+.logout:hover a {
+  background-color: var(--grey);
+  color: var(--light);
 }
