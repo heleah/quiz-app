@@ -2,6 +2,7 @@
 @import "./utility.css";
 
 @import "./components/about.css";
-@import "./components/logout.css";
+@import "./components/addquestion.css";
+@import "./components/btn.css";
 @import "./components/navfooter.css";
 @import "./components/quizcard.css";

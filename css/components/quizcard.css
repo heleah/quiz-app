@@ -26,25 +26,8 @@
   text-align: center;
 }
 
-.quizcard__answer {
-  background-color: var(--primary-400);
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  text-align: center;
-  font-weight: bold;
-  color: var(--light);
-  transition: all 0.2s ease-in;
-}
-
-summary {
-  font-weight: normal;
-}
-
-.quizcard__answer:hover {
-  background-color: var(--primary);
-}
-
 .quizcard__tags {
+  margin: 0;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
@@ -59,4 +42,23 @@ summary {
   border-radius: 0.5rem;
   text-align: center;
   align-self: center;
+}
+
+.quizcard__answer {
+  background-color: var(--primary-400);
+  padding: 0.75rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--light);
+  transition: all 0.2s ease-in;
+}
+
+summary {
+  font-weight: normal;
+}
+
+.quizcard__answer:hover {
+  background-color: var(--primary);
 }

@@ -7,7 +7,7 @@ footer {
 
 .nav ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
   align-items: center;
   list-style-type: none;
   padding: 0;

@@ -23,6 +23,10 @@
 *::after {
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+}
 
 body {
   margin: 0;
@@ -46,10 +50,11 @@ h1 {
 }
 
 main {
-  height: 105vh;
+  height: 100vh;
+  overflow: auto;
   padding: 1.25rem;
-  padding-top: 8rem;
-  margin-bottom: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 150px;
   background-image: linear-gradient(var(--primary) 8%, var(--light));
   background-attachment: fixed;
 }
