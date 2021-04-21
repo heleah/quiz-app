@@ -1,5 +1,6 @@
 .quizcard {
-  margin: 1.2rem 0;
+  position: relative;
+  margin: 1.6rem 0;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -14,8 +15,10 @@
 }
 
 .quizcard img {
-  width: 1.75rem;
-  align-self: flex-end;
+  width: 3rem;
+  position: absolute;
+  right: 40px;
+  top: -22px;
 }
 
 .quizcard__question {
