@@ -14,11 +14,16 @@
   align-self: flex-start;
 }
 
-.quizcard img {
+.quizcard__bookmark {
   width: 3rem;
   position: absolute;
   right: 40px;
   top: -22px;
+  transition: all 1s ease-in-out;
+}
+
+.quizcard__bookmark:hover {
+  transform: scale(1.2) rotate(360deg);
 }
 
 .quizcard__question {

@@ -8,4 +8,18 @@
 .about__user img {
   width: 14rem;
   border-radius: 50rem;
+  box-shadow: 8px 5px 10px var(--lighter);
+  transition: transform 1.4s ease-in;
+}
+
+.about__user img:hover {
+  transform: scale(1.05) rotate(360deg);
+}
+
+.about__name {
+  box-shadow: 0 0 2rem var(--light);
+  padding: 0.8rem;
+  border-radius: 10rem;
+  font-size: 2rem;
+  background-color: var(--lighter);
 }
