@@ -75,3 +75,13 @@
 .quizcard__button:hover {
   background-color: var(--primary);
 }
+
+.quizcard__answer--test {
+  margin-top: 0;
+}
+
+.quizcard__tags li:hover {
+  background-color: var(--primary-400);
+  color: var(--light);
+  font-weight: normal;
+}

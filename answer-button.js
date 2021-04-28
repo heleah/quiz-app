@@ -10,3 +10,15 @@ answerButtons.forEach((button, index) => {
         : 'Show Answer';
   });
 });
+
+const options = document.querySelectorAll('.quizcard__tags li');
+
+options.forEach((option) => {
+  option.addEventListener('click', () => {
+    const quizCard = option.parentNode.parentNode;
+    const answer = quizCard.querySelector('.quizcard__answer--test');
+    answer.innerHTML = option.classList.contains('quizcard__tags--correct')
+      ? 'Congratulations, that is correct!'
+      : 'Sorry, that is wrong. Please try again.';
+  });
+});
