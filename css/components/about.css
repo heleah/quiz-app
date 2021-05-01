@@ -23,3 +23,22 @@
   font-size: 2rem;
   background-color: var(--lighter);
 }
+
+.about__tags {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.about__tags li {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: var(--primary-200);
+  border-radius: 0.5rem;
+  text-align: center;
+  align-self: center;
+  font-size: 1.2rem;
+}
